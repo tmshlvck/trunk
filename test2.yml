@@ -1,0 +1,11 @@
+---
+hostname: server1.domain.tld
+mqtthost: server1.domain.tld
+mqttport: 1883
+mqttuser: "user"
+mqttpasswd: "password"
+proxy:
+- channel: 'host1/ssh'
+  listen: '::'
+  port: 2222
+
